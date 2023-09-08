@@ -1,0 +1,29 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: linear-gradient(180deg, #000080 80%, #800000 80%);
+    color: #D4AF37;
+    position: fixed;
+    width: 100%;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 854px) {
+    .header {
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+
+.header.shrink { 
+    padding: 5px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 854px) {
+    .header.header.shrink {
+        padding: 2px;
+        font-size: 9px;
+    }
+}
