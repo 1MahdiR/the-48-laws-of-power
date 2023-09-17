@@ -11,3 +11,35 @@
         width: 90vw;
     }
 }
+
+.main h1, .main h2 {
+    text-align: center;
+    font-family: 'Gulzar', Times;
+    width: 100%;
+    color: #333333;
+}
+
+.main h3 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Gulzar', Times;
+    font-size: 1.7rem;
+}
+
+.main h1.ljust, .main h2.ljust, .main h3.ljust {
+    text-align: left;
+}
+
+.main hr {
+    background: linear-gradient(90deg, rgba(51,51,51,0) 2%, rgba(51,51,51,0.7) 10%, rgba(51,51,51,0.7) 50%, rgba(51,51,51,0.7) 90%, rgba(51,51,51,0) 98%);
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-family:Times, serif;
+    font-size: 22px;
+    color: #333333;
+}
