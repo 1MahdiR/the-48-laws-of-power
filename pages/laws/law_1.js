@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <meta charSet='UTF-8'/>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-        <title>Create Next App</title>
+        <title>The 48 Laws of Power</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
