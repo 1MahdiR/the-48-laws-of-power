@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import header_styles from '../styles/Header.module.css';
+import Link from 'next/link';
 
 export default function Header() {
     const [isHeaderShrunk, setIsHeaderShrunk] = useState(false);
@@ -25,7 +26,7 @@ export default function Header() {
       <>
         <header>
           <div className={`${header_styles.header} ${(isHeaderShrunk ? header_styles.shrink : '')}`}>
-            <h1 className="Hello">POWER!</h1>
+            <h1 className="Hello"><Link href="/">48 Laws of Power</Link></h1>
           </div>
         </header>
       </>
