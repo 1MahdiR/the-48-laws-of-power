@@ -30,12 +30,33 @@
     text-align: left;
 }
 
-.main hr {
+.main .title_footer {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main .title_footer hr {
     background: linear-gradient(90deg, rgba(51,51,51,0) 2%, rgba(51,51,51,0.7) 10%, rgba(51,51,51,0.7) 50%, rgba(51,51,51,0.7) 90%, rgba(51,51,51,0) 98%);
     height: 1px;
     width: 100%;
     border: none;
-    margin-bottom: 20px;
+}
+
+.main .title_footer i {
+    color: #555555;
+}
+
+.main .title_footer i.float_right {
+    float: right;
+}
+
+.main .title_footer i:hover {
+    color: #333333;
+}
+
+.main .title_footer div {
+    width: 100%;
+    display: block;
 }
 
 .main p {
