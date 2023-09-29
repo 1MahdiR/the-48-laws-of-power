@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../../components/header';
 import Post from '../../components/post';
 import Title from '../../components/title';
+import Footer from '../../components/footer';
 
 import styles from '../../styles/Home.module.css';
 import main_styles from '../../styles/Main.module.css';
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={main_styles.main}>
-        <Post main_title="LAW 5" sub_title="SO MUCH DEPENDS ON REPUTATION - GUARD IT WITH YOUR LIFE">
+        <Post main_title="5" sub_title="SO MUCH DEPENDS ON REPUTATION - GUARD IT WITH YOUR LIFE" next_link="" previous_link="/laws/law_4">
           <p>
             Reputation is the cornerstone of power. through reputation alone you can intimidate and win; once it slips however you are vulnerable and will be attacked on all sides. Make your reputation unassailable. Always be alert to potential attacks and thwart them before they happen. Meanwhile learn to destroy your enemies by opening holes in their own reputations. Then stand aside and let public opinion hang them.
           </p>
@@ -73,6 +74,7 @@ export default function Home() {
           </p>
         </Post>
       </main>
+      <Footer />
       
       <style jsx>{`
         main {

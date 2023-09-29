@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../../components/header';
 import Post from '../../components/post';
 import Title from '../../components/title';
+import Footer from '../../components/footer';
 
 import styles from '../../styles/Home.module.css';
 import main_styles from '../../styles/Main.module.css';
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={main_styles.main}>
-        <Post main_title="LAW 2" sub_title="NEVER PUT TOO MUCH TRUST IN FRIENDS, LEARN HOW TO USE ENEMIES">
+        <Post main_title="2" sub_title="NEVER PUT TOO MUCH TRUST IN FRIENDS, LEARN HOW TO USE ENEMIES" next_link="/laws/law_3" previous_link="/laws/law_1">
           <p>
             Be wary of friends — they will betray you more quickly, for they are easily aroused to envy. They also become spoiled and tyrannical. But hire a former enemy and he will be more loyal than a friend, because he has more to prove.
           </p>
@@ -57,6 +58,7 @@ export default function Home() {
           </p>
         </Post>
       </main>
+      <Footer />
       
       <style jsx>{`
         main {

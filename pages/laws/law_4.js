@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../../components/header';
 import Post from '../../components/post';
 import Title from '../../components/title';
+import Footer from '../../components/footer';
 
 import styles from '../../styles/Home.module.css';
 import main_styles from '../../styles/Main.module.css';
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={main_styles.main}>
-        <Post main_title="LAW 4" sub_title="ALWAYS SAY LESS THAN NECESSARY">
+        <Post main_title="4" sub_title="ALWAYS SAY LESS THAN NECESSARY" next_link="/laws/law_5" previous_link="/laws/law_3">
           <p>
             Powerful people know how to impress others by saying less. The more you say, the more likely it is that you will end up saying something foolish. As people are constantly trying to work out what others appear to be thinking, silence makes them feel uncomfortable.
           </p>
@@ -66,6 +67,7 @@ export default function Home() {
           </p>
         </Post>
       </main>
+      <Footer />
       
       <style jsx>{`
         main {

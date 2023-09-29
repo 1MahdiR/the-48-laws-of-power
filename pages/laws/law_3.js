@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../../components/header';
 import Post from '../../components/post';
 import Title from '../../components/title';
+import Footer from '../../components/footer';
 
 import styles from '../../styles/Home.module.css';
 import main_styles from '../../styles/Main.module.css';
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={main_styles.main}>
-        <Post main_title="LAW 3" sub_title="CONCEAL YOUR INTENTIONS">
+        <Post main_title="3" sub_title="CONCEAL YOUR INTENTIONS" next_link="/laws/law_4" previous_link="/laws/law_2">
           <p>
             Always conceal your intentions. If you keep people off-balance and in the dark, they can't counter your efforts. Send them down the wrong path with a red herring or create a smokescreen and by the time they realize what you're up to, it will be too late for them to interfere.
           </p>
@@ -70,6 +71,7 @@ export default function Home() {
           </p>
         </Post>
       </main>
+      <Footer />
       
       <style jsx>{`
         main {

@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '../../components/header';
 import Post from '../../components/post';
 import Title from '../../components/title';
+import Footer from '../../components/footer';
 
 import styles from '../../styles/Home.module.css';
 import main_styles from '../../styles/Main.module.css';
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={main_styles.main}>
-        <Post main_title="LAW 1" sub_title="NEVER OUTSHINE THE MASTER">
+        <Post main_title="1" sub_title="NEVER OUTSHINE THE MASTER" next_link="/laws/law_2">
           <p>
             Always make those above you feel comfortably superior in your desire to please and impress them, do not go too far in displaying your talents or you might accomplish the opposite — inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power.
           </p>
@@ -63,6 +64,7 @@ export default function Home() {
           </p>
         </Post>
       </main>
+      <Footer />
       
       <style jsx>{`
         main {

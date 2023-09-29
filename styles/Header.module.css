@@ -8,6 +8,7 @@
 }
 
 .header h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 52px;
     transition: 0.3s ease-in-out;
 }
@@ -41,8 +42,4 @@
     .header.shrink h1 {
         font-size: 20px;
     }
-}
-
-.header h1 {
-    font-family: 'Times New Roman', Times, serif;
 }
