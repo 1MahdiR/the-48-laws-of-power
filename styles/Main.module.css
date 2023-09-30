@@ -67,17 +67,22 @@
 }
 
 .main ul li {
-    font-family: Times, serif;
-    font-size: 22px;
+    font-family: 'Gulzar', Times, serif;
+    font-size: 20px;
     text-align: justify;
     line-height: 26px;
     color: #333333;
     margin-top: 10px;
 }
 
+
+
 @media screen and (max-width: 854px) {
     .main p, .main ul li {
         font-size: 16px;
     }
-}
 
+    .main ul li {
+        margin-top: 5%;
+    }
+}
