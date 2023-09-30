@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   
-  basePath: '/',
+  basePath: '/the-48-laws-of-power',
 
 }
