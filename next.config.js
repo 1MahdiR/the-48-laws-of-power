@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
 
  // Add basePath
-  basePath: '/github-pages',
+  basePath: '/the-48-laws-of-power',
 
 }
 
