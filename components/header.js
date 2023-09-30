@@ -26,7 +26,7 @@ export default function Header() {
       <>
         <header>
           <div className={`${header_styles.header} ${(isHeaderShrunk ? header_styles.shrink : '')}`}>
-            <h1 className="Hello"><Link href="/">48 Laws of Power</Link></h1>
+            <h1 className="Hello"><Link href="/">The 48 Laws of Power</Link></h1>
           </div>
         </header>
       </>
