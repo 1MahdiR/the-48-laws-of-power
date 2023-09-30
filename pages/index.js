@@ -16,7 +16,7 @@ export default function Home() {
         <meta charSet='UTF-8'/>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
         <title>The 48 Laws of Power</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="the-48-laws-of-power/favicon.png" />
       </Head>
       <Header />
       <main className={main_styles.main}>

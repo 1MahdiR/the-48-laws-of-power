@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-
- // Add basePath
-  basePath: '/the-48-laws-of-power',
+  
+  basePath: '/the-48-laws-of-power/',
 
 }
-
-module.exports = nextConfig
